@@ -1,0 +1,87 @@
+.caixa {
+    position: relative;
+    width: 500px;
+    margin: 100px ;
+}
+
+#banner{
+    width: 40%;
+}
+
+body{
+    background-color: rgb(251, 233, 99);
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 1000px;
+    height: 500px;
+
+}
+
+nav li{
+    display: inline;
+    margin:0 0 0 25px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    font-family: Georgia; 
+    font-size: 2em; 
+    font-weight:bolder;
+    text-decoration: none;
+    color:rgb(157, 114, 72)
+}
+
+.imagens{
+    width: 1080px;
+    margin: 10%;
+    padding: 50%, 0;
+}
+
+.imagens li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+   }
+
+   main {
+    color:black;
+    width: 940px;
+    margin:0 auto;
+    font-size: 22px;
+}
+.descricao_pagina{
+    color:black;
+    font-size: 22px;
+}
+.texto{
+    color:black;
+    text-align:justify
+    
+}
+.titulo{
+    color:black;
+    text-align:left;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 15px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(157, 114, 72);
+    padding: 2px 0;
+    position:fixed 0;
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 20px 0 20px;
+    
+}
